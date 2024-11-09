@@ -56,7 +56,7 @@ public class RunAsyncDemo {
                         e.printStackTrace();
                     }
                 },executor);
-
+//        runAsyncFuture.toCompletableFuture(); //in case if needs to stop it
         return runAsyncFuture.get();
     }
 

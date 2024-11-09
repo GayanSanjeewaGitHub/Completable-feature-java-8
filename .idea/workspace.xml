@@ -5,13 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1af9d000-1394-4baf-9d99-7dd55408a0cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javatechie/async/MultiApiDataFetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javatechie/async/ThenCombine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javatechie/async/ThenCompose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javatechie/async/RunAsyncDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javatechie/async/RunAsyncDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatechie/async/EmployeeReminderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatechie/async/RunAsyncDemo$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatechie/async/RunAsyncDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatechie/async/RunAsyncDemo$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatechie/async/RunAsyncDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatechie/async/SupplyAsyncDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatechie/async/WhyNotFuture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatechie/async/database/EmployeeDatabase$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatechie/async/database/EmployeeDatabase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/javatechie/async/dto/Employee.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +29,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,11 +69,24 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/MSI KATANA/Documents/GITHUB_FULL_REPO/Completable-feature-java-8",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MultiApiDataFetcher">
+    <configuration name="MultiApiDataFetcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javatechie.async.MultiApiDataFetcher" />
+      <module name="completablefuture-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javatechie.async.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunAsyncDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javatechie.async.RunAsyncDemo" />
       <module name="completablefuture-example" />
@@ -71,8 +100,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThenCombine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javatechie.async.ThenCombine" />
+      <module name="completablefuture-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javatechie.async.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThenCompose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javatechie.async.ThenCompose" />
+      <module name="completablefuture-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javatechie.async.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiApiDataFetcher" />
+        <item itemvalue="Application.ThenCombine" />
+        <item itemvalue="Application.ThenCompose" />
         <item itemvalue="Application.RunAsyncDemo" />
       </list>
     </recent_temporary>
